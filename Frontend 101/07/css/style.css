@@ -1,0 +1,29 @@
+html {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+body {
+  padding: 30px 0;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: #ecedef;
+}
+
+.child {
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+}
+.red { background-color: #e74c3c; order: 3; }
+.yellow { background-color: #f1c40f; order: 1; }
+.blue { background-color: #0066ff; order: 2; }
+

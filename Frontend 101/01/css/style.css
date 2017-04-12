@@ -1,0 +1,223 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #646464;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.container {
+  display: block;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.row::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  padding: 1.25rem 0;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.brand {
+  font-family: 'Montserrat';
+  font-size: 1.25rem;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.gnb-menu {
+  display: none;
+}
+
+.btn-menu {
+  display: inline-block;
+  width: 29px;
+  height: 21px;
+  background-image: url(../assets/icon-menu.svg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.cover {
+  display: block;
+  width: 100%;
+  color: #fff;
+  background-color: #000;
+  background-image: url(../assets/bg-cover.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.cover .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.cover-title {
+  display: block;
+  margin-bottom: 20px;
+  font-family: 'Montserrat';
+  font-size: 3.25rem;
+  line-height: 1.21;
+}
+
+.download {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../assets/bg-download.png);
+  background-position: right center;
+  background-size: 45% auto;
+  background-repeat: no-repeat;
+  background-color: #fbfbfb;
+}
+
+.download .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.download-title {
+  margin-bottom: 2.5rem;
+  font-size: 3.75rem;
+  line-height: 1.37;
+  font-weight: 300;
+}
+
+.download-link {
+  display: inline-block;
+  width: 250px;
+  height: 73px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.download-link:first-child { background-image: url(../assets/icon-apple.svg); margin-right: 1rem;}
+.download-link:last-child { background-image: url(../assets/icon-google.svg); }
+
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.about-title {
+  margin-bottom: 30px;
+  font-size: 2.19rem;
+  line-height: 1.34;
+  font-weight: 300;
+  color: #141414;
+}
+
+.about-content {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.about-content p, .about-content div {
+  float: left;
+  width: 400px;
+  margin: 0 1rem;
+  text-align: left;
+}
+
+.about-img {
+  display: inline-block;
+  width: 868px;
+  height: auto;
+}
+
+.footer {
+  display: block;
+  width: 100%;
+  padding: 5rem 0;
+  background-color: #161616;
+  color: #fff;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-nav {
+  margin-right: 150px;
+}
+
+.footer-nav-title, .footer-contact-title {
+  margin-bottom: 0.5rem;
+}
+
+.footer-nav-menu li, .footer-contact-content {
+  padding: 5px 0;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.footer-contact-email, .btn-footer-contact {
+  display: inline-block;
+  width: 280px;
+  padding: 0.8rem 1rem;
+  border-radius: 100px;
+  margin-right: 0.8rem;
+  font-size: 0.8rem;
+  background-color: #fff;
+}
+
+.footer-contact-form {
+  margin-top: 20px;
+}
+
+.btn-footer-contact {
+  width: 140px;
+  color: #fff;
+  background-color: #f12a2a;
+  text-align: center;
+}
