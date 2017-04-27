@@ -1,25 +1,25 @@
 /* Common Settings */
 html {
-	font-size: 15px;
-	font-family: 'Open Sans', sans-serif;
-	line-height: 1.6;
-	color: #181818;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  color: #181818;
 }
 
 a {
-	color: inherit;
-	transition: all 0.2s ease-in-out;
+  color: inherit;
+  transition: all 0.2s ease-in-out;
 }
 
 a:hover {
-	text-decoration: none;
-	color: inherit;
-	opacity: 0.5;
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.5;
 }
 
 ul, ol {
-	list-style-type: none;
-	padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 button {
@@ -30,110 +30,110 @@ button {
 
 /* Header */
 .header {
-	width: 100%;
-	height: 500px;
-	background-image: linear-gradient(to bottom, transparent 0%, #fff 100%), url(../assets/bg-header.jpg);
-	background-size: cover;
-	background-position: center center;
+  width: 100%;
+  height: 500px;
+  background-image: linear-gradient(to bottom, transparent 0%, #fff 100%), url(../assets/bg-header.jpg);
+  background-size: cover;
+  background-position: center center;
 }
 
 /* Navigation */
 .navbar.bg-faded {
-	background: none;
+  background: none;
 }
 
 .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-toggler {
-	font-size: 14px;
-	letter-spacing: 0.21em;
-	line-height: 1.43333333;
-	font-weight: 700;
-	color: #181818;
+  font-size: 14px;
+  letter-spacing: 0.21em;
+  line-height: 1.43333333;
+  font-weight: 700;
+  color: #181818;
 }
 
 .navbar-light .navbar-nav .nav-item.active .nav-link {
-	color: #ff5216;
+  color: #ff5216;
 }
 
 .brand {
-	font-family: 'Jeju Myeonjo', serif;
-	font-size: 1.33333333rem;
-	line-height: 1;
-	letter-spacing: -0.05em;
+  font-family: 'Jeju Myeonjo', serif;
+  font-size: 1.33333333rem;
+  line-height: 1;
+  letter-spacing: -0.05em;
 }
 
 .navbar-light .navbar-toggler {
-	border: none;
+  border: none;
 }
 
 
 /* Post */
 
 .post__item:nth-child(2n) {
-	text-align: right;
+  text-align: right;
 }
 
 .post__title {
-	font-family: 'Jeju Myeonjo', serif;
-	font-size: 3.2rem;
-	line-height: 1.25;
-	letter-spacing: -0.02em;
+  font-family: 'Jeju Myeonjo', serif;
+  font-size: 3.2rem;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
 }
 
 .post__text {
-	font-size: 1rem;
-	line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
 .post__text em {
-	font-style: normal;
-	font-weight: 700;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .post__date {
-	font-family: 'Jeju Myeongjo', serif;
-	font-size: 0.8rem;
-	line-height: 2;
-	color: #8d8d8d;
-	font-style: italic;
+  font-family: 'Jeju Myeongjo', serif;
+  font-size: 0.8rem;
+  line-height: 2;
+  color: #8d8d8d;
+  font-style: italic;
 }
 
 /* Footer */
 
 .footer {
-	background-color: #fbfbfb;
-	text-align: center;
+  background-color: #fbfbfb;
+  text-align: center;
 }
 .author__img {
-	width: 80px;
-	height: 80px;
-	border-radius: 1000px;
-	overflow: hidden;
+  width: 80px;
+  height: 80px;
+  border-radius: 1000px;
+  overflow: hidden;
 }
 
 .author__img img {
-	width: 100%;
-	height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .author__name {
-	font-size: 1.2rem;
-	line-height: 1.33333333;
+  font-size: 1.2rem;
+  line-height: 1.33333333;
 }
 
 .btn-subscribe {
-	border: 1px solid #1fb6ff;
-	border-radius: 100px;
-	color: #1fb6ff;
-	transition: all 0.2s ease-in-out;
+  border: 1px solid #1fb6ff;
+  border-radius: 100px;
+  color: #1fb6ff;
+  transition: all 0.2s ease-in-out;
 }
 
 .btn-subscribe:hover, .btn-subscribe:focus {
-	border: 1px solid #ff5216;
-	color: #ff5216;
+  border: 1px solid #ff5216;
+  color: #ff5216;
 }
 
 .copyright {
-	font-size: 12px;
-	line-height: 2;
-	color: #8d8d8d;
+  font-size: 12px;
+  line-height: 2;
+  color: #8d8d8d;
 }
