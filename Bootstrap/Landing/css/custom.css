@@ -47,14 +47,22 @@ a.bg-primary:hover { background-color: #ff7600 !important; opacity: 1; }
 }
 
 .section__title {
-  line-height: 1.4444;
+  font-size: 2.3rem;
+  line-height: 1.25;
   font-weight: 300;
   text-align: center;
 }
 
-@media screen and (min-height: 576px) {
+@media screen and (max-width: 575px) {
+  .sm-block {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 576px) {
   .section__title {
-  font-size: 3.333333333rem;
+    font-size: 3.333333333rem;
+    line-height: 1.4444;
   }
 }
 
