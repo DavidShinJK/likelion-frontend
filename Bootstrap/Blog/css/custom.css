@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/earlyaccess/kopubbatang.css);
+
 /* Common Settings */
 html {
   font-size: 15px;
@@ -90,7 +92,7 @@ button {
 }
 
 .post__date {
-  font-family: 'Jeju Myeongjo', serif;
+  font-family: 'KoPuh Batang', serif;
   font-size: 0.8rem;
   line-height: 2;
   color: #8d8d8d;
