@@ -205,6 +205,10 @@ a.bg-primary:hover { background-color: #ff7600 !important; opacity: 1; }
     height: 100%;
     width: auto;
   }
+  .card__img-container:hover img.height-fit-md-only {
+  	height: 120%;
+  	width: auto;
+  }
 }
 
 .card-title {
