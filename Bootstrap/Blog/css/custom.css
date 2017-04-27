@@ -57,7 +57,11 @@ button {
 }
 
 .brand {
+<<<<<<< HEAD
   font-family: 'KoPub Batang', serif;
+=======
+  font-family: 'Jeju Myeonjo', serif;
+>>>>>>> origin
   font-size: 1.33333333rem;
   line-height: 1;
   letter-spacing: -0.05em;
@@ -75,7 +79,11 @@ button {
 }
 
 .post__title {
+<<<<<<< HEAD
   font-family: 'KoPub Batang', serif;
+=======
+  font-family: 'Jeju Myeonjo', serif;
+>>>>>>> origin
   font-size: 3.2rem;
   line-height: 1.25;
   letter-spacing: -0.02em;
@@ -92,7 +100,11 @@ button {
 }
 
 .post__date {
+<<<<<<< HEAD
   font-family: 'KoPuh Batang', serif;
+=======
+  font-family: 'Jeju Myeongjo', serif;
+>>>>>>> origin
   font-size: 0.8rem;
   line-height: 2;
   color: #8d8d8d;
