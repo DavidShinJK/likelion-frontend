@@ -60,62 +60,58 @@
 }
 
 * {
-  font-family: 'Spoqa Han Sans', sans-serif;
-  color: #1f2d3d;
+	font-family: 'Spoqa Han Sans', sans-serif;
+	color: #1f2d3d;
 }
 
 ul {
-  list-style: none;
-  padding: 0;
+	list-style: none;
+	padding: 0;
 }
 
 a {
-  color: #3c4858;
-  transition: all 0.2s ease-in-out;
+	color: #3c4858;
+	transition: all 0.2s ease-in-out;
 }
 
 a:hover {
-  color: #ff9e7c;
-  text-decoration: none;
+	color: #ff5216;
+	text-decoration: none;
 }
 
 header.row {
-  padding-top: 200px;
-  background-image: url(etc/slogan2.png);
-  background-size: 100px auto;
-  background-repeat: no-repeat;
-  background-position: 15px 60px;
+	padding-top: 200px;
+	background-image: url(etc/slogan2.png);
+	background-size: 100px auto;
+	background-repeat: no-repeat;
+	background-position: 15px 60px;
 }
 .brand {
-  font-size: 32px;
-  font-weight: 300;
-  line-height: 1.25;
+	font-size: 32px;
+	font-weight: 300;
+	line-height: 1.25;
 }
 @media screen and (min-width: 768px) {
-  .brand {
-    font-size: 48px;
-  }
+	.brand {
+		font-size: 48px;
+	}
 }
 
 .demo__title {
-  font-size: 1rem;
-  font-weight: 700;
-}
-
-.demo__category {
-  color: #ff5216;
+	font-size: 1rem;
+	font-weight: 700;
 }
 
 .demo__project {
-  font-size: 1rem;
+	font-size: 1rem;
 }
 
 .copyright {
-  font-size: 0.75rem;
-  color: #8492a6;
+	font-size: 0.75rem;
+	color: #8492a6;
 }
 
 em {
-  font-style: normal;
-  font-weight: 700;
+	font-style: normal;
+	font-weight: 700;
 }
