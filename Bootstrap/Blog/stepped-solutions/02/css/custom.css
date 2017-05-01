@@ -1,16 +1,16 @@
 /* Common Settings */
 html {
-	font-size: 15px; /* 1rem === 15px */
-	line-height: 1.6; /* 24px/15px = 1.6 */
+  font-size: 15px; /* 1rem === 15px */
+  line-height: 1.6; /* 24px/15px = 1.6 */
 }
 
 * {
-	font-family: 'Open Sans', sans-serif;
-	color: #181818;
+  font-family: 'Open Sans', sans-serif;
+  color: #181818;
 }
 
 button {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 button:focus {
@@ -20,40 +20,40 @@ button:focus {
 
 /* header */
 .brand {
-	margin: 0;
-	font-family: 'Kopub Batang', serif;
-	font-size: 1.33333333rem;
-	font-weight: 400;
-	line-height: 1;
+  margin: 0;
+  font-family: 'Kopub Batang', serif;
+  font-size: 1.33333333rem;
+  font-weight: 400;
+  line-height: 1;
 }
 
 .brand a {
-	font-family: inherit;
+  font-family: inherit;
 }
 
 .navbar-toggler {
-	border: none;
+  border: none;
 }
 
 .navbar-light .navbar-nav .nav-link,
 .navbar-toggler {
-	font-size: 0.9333333rem;
-	font-weight: 700;
-	line-height: 1.43;
-	letter-spacing: 0.21em;
-	color: #181818;
+  font-size: 0.9333333rem;
+  font-weight: 700;
+  line-height: 1.43;
+  letter-spacing: 0.21em;
+  color: #181818;
 }
 
 .navbar-light .nav-item.active .nav-link {
-	color: #ff5216;
+  color: #ff5216;
 }
 
 .header {
-	height: 500px;
-	/* linear-gradient(방향, 시작점, 끝점)*/
-	background-image: linear-gradient(to bottom, transparent 0%, #fff 100%), url(../assets/bg-header.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
+  height: 500px;
+  /* linear-gradient(방향, 시작점, 끝점)*/
+  background-image: linear-gradient(to bottom, transparent 0%, #fff 100%), url(../assets/bg-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
