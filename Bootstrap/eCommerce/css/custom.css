@@ -249,6 +249,10 @@ button.bg-primary:focus {
   text-align: center;
 }
 
+.banner__title {
+  white-space: nowrap;
+}
+
 #banner .form-inline {
   flex-wrap: nowrap;
 }
