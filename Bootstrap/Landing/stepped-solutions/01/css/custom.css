@@ -1,0 +1,55 @@
+/* Common Settings */
+html {
+  /* 1rem === 15px */
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+* {
+  font-family: 'Spoqa Han Sans', sans-serif;
+  letter-spacing: -0.02em;
+  color: #333;
+}
+
+[lang="en"] {
+  font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+
+/*[class="col"] === .col*/
+
+
+/* Header */
+.navbar.bg-inverse {
+  background-color: #000 !important;
+}
+.brand {
+  margin-bottom: 0;
+  font-size: 1.3333333rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.08em;
+}
+
+.nav-link {
+  font-size: 0.73rem;
+  font-weight: 700;
+  line-height: 1.82;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.fa.fa-bars {
+  position: relative;
+  top: 1px;
+}
