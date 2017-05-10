@@ -57,6 +57,10 @@ button.bg-primary:focus {
   background-color: #591bee !important;
 }
 
+.btn-primary {
+  border: none;
+}
+
 .btn-square {
   border: none;
   border-radius: 0;
@@ -121,6 +125,12 @@ button.bg-primary:focus {
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: -0.01em;
+}
+
+@media screen and (max-width: 576px) {
+  .cover__title{
+    font-size: 3.3rem;
+  }
 }
 
 .cover__form * {
@@ -225,6 +235,7 @@ button.bg-primary:focus {
 #banner {
   background-color: #592dea;
   color: #fff;
+  text-align: center;
 }
 
 #banner .form-control {
@@ -234,7 +245,12 @@ button.bg-primary:focus {
 .banner__text,
 .banner__title {
   color: #fff;
-  line-height: 1;
+  line-height: 1.4;
+  text-align: center;
+}
+
+#banner .form-inline {
+  flex-wrap: nowrap;
 }
 
 
