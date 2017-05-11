@@ -5,6 +5,9 @@
 html {
 	font-family: 'Lato', sans-serif;
 	font-size: 14px;
+}
+
+* {
 	color: #3c4858;
 }
 
@@ -28,15 +31,37 @@ button:focus {
 }
 
 .btn-load {
+	position: relative;
 	cursor: pointer;
 	padding: 15px;
-	border: 2px solid #181818;
+	border: 2px solid #3c4858;
 	font-family: inherit;
 	font-size: 1rem;
 	font-weight: 700;
 	background-color: transparent;
 	text-transform: uppercase;
 	letter-spacing: 3px;
+	transition: all 0.2s ease-in-out;
+}
+
+.btn-load::after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 100%;
+	transition: all 0.3s ease-in-out;
+	background-color: #3c4858;
+}
+
+.btn-load:hover {
+	color: #fff;
+}
+
+.btn-load:hover::after {
+	right: 0;
 }
 
 .title {
@@ -62,7 +87,7 @@ button:focus {
 }
 
 .music__item:hover .music__album {
-	opacity: 0.5;
+	box-shadow: 0 0 30px #C0CCDA;
 }
 
 .music__album {
@@ -80,5 +105,11 @@ button:focus {
 }
 
 .music__desc{
+	color: #8492a6;
+}
+
+.copyright {
+	margin-top: 20px;
+	font-size: 0.8rem;
 	color: #8492a6;
 }

@@ -72,9 +72,8 @@
   }
 
   button.addEventListener('click', function() {
-  	TweenLite.to(this, 1, {
+  	TweenLite.to(this, 0.5, {
   		autoAlpha: 0,
-  		y: -10
   	});
   	TweenLite.fromTo(title, 1, {
   		opacity: 0,
@@ -83,16 +82,19 @@
   		opacity: 1,
   		y: 0
   	});
+
     music_src.forEach(function(item, idx) {
     	loadMusic(idx);
     });
-    TweenLite.fromTo(music_list, 1, {
-    	opacity: 0,
-    	x: -10
+
+    var items = document.querySelectorAll('.music__item'),
+        tl = new TimelineLite();
+    tl.staggerFromTo(items, 0.5, {
+    	autoAlpha: 0,
+    	y: 10
     }, {
-    	opacity: 1 ,
-    	x: 0,
-    	delay: 0.5
-    });
+    	autoAlpha: 1,
+    	y: 0
+    }, 0.3);
   });
 })(window);
