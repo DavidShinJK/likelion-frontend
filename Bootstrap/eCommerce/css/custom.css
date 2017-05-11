@@ -226,6 +226,9 @@ button.bg-primary:focus {
 }
 
 /* Promotion */
+.promotion__list {
+  flex-grow: 1
+}
 
 /* Banner */
 #banner {
