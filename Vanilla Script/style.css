@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+	margin: 0
+}
+html {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	color: #3c4858;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+button:focus {
+	outline: none;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	width: 960px;
+	min-height: 100vh;
+	margin: 0 auto;
+}
+
+.btn-load {
+	cursor: pointer;
+	padding: 15px;
+	border: 2px solid #181818;
+	font-family: inherit;
+	font-size: 1rem;
+	font-weight: 700;
+	background-color: transparent;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.title {
+	margin-bottom: 20px;
+	font-size: 2.67rem;
+	font-weight: 700;
+}
+
+.music__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+	text-align: center;
+}
+
+
+.music__item {
+	width: 30%;
+	margin-bottom: 1.5rem;
+	cursor: pointer;
+}
+
+.music__item:hover .music__album {
+	opacity: 0.5;
+}
+
+.music__album {
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+	transition: all 0.2s ease-in-out;
+}
+
+.music__title {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	font-size: 1.14rem;
+	font-weight: 700;
+}
+
+.music__desc{
+	color: #8492a6;
+}
