@@ -108,6 +108,7 @@ button.bg-primary:focus {
   background-image: url(../assets/bg-cover.jpg);
   background-size: cover;
   background-position: center center;
+  background-attachment: fixed;
 }
 
 #cover .row {
